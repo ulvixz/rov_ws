@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<package format="3">
+
+  <name>rov_autonomy</name>
+  <version>0.0.0</version>
+
+  <description>ROS 2 autonomy and teleoperation package for the ROV</description>
+
+  <maintainer email="aliulvi4103@hotmail.com">
+    kaplan
+  </maintainer>
+
+  <license>Apache-2.0</license>
+
+
+  <!-- ========================= -->
+  <!-- ROS 2 PYTHON              -->
+  <!-- ========================= -->
+
+  <depend>rclpy</depend>
+
+
+  <!-- ========================= -->
+  <!-- MESSAGE TYPES             -->
+  <!-- ========================= -->
+
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>mavros_msgs</depend>
+
+
+  <!-- ========================= -->
+  <!-- CONTROLLER / TELEOP       -->
+  <!-- ========================= -->
+
+  <exec_depend>joy</exec_depend>
+  <exec_depend>teleop_twist_joy</exec_depend>
+
+
+  <!-- ========================= -->
+  <!-- LAUNCH SYSTEM             -->
+  <!-- ========================= -->
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+
+
+  <!-- ========================= -->
+  <!-- TEST                      -->
+  <!-- ========================= -->
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+
+</package>

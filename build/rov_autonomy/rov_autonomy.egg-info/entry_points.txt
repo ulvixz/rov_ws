@@ -1,0 +1,3 @@
+[console_scripts]
+joy_trigger_mixer = rov_autonomy.joy_trigger_mixer:main
+twist_to_manual_control = rov_autonomy.twist_to_manual_control:main

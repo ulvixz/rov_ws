@@ -1,0 +1,26 @@
+[1.724s] Invoking command in '/home/kaplan/rov_ws/build/rov_autonomy': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/kaplan/rov_ws/build/rov_autonomy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kaplan/rov_ws/install/rov_autonomy/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kaplan/rov_ws/build/rov_autonomy/build --no-deps symlink_data
+[1.961s] /home/kaplan/.local/lib/python3.12/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.961s]   warnings.warn(msg)
+[2.201s] running develop
+[2.490s] /home/kaplan/.local/lib/python3.12/site-packages/setuptools/command/easy_install.py:334: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[2.490s]   self.local_index = Environment(self.shadow_path + sys.path)
+[2.541s] running egg_info
+[2.571s] creating rov_autonomy.egg-info
+[2.572s] writing rov_autonomy.egg-info/PKG-INFO
+[2.572s] writing dependency_links to rov_autonomy.egg-info/dependency_links.txt
+[2.572s] writing entry points to rov_autonomy.egg-info/entry_points.txt
+[2.572s] writing requirements to rov_autonomy.egg-info/requires.txt
+[2.572s] writing top-level names to rov_autonomy.egg-info/top_level.txt
+[2.572s] writing manifest file 'rov_autonomy.egg-info/SOURCES.txt'
+[2.635s] reading manifest file 'rov_autonomy.egg-info/SOURCES.txt'
+[2.636s] writing manifest file 'rov_autonomy.egg-info/SOURCES.txt'
+[2.669s] running build_ext
+[2.669s] Creating /home/kaplan/rov_ws/install/rov_autonomy/lib/python3.12/site-packages/rov-autonomy.egg-link (link to .)
+[2.670s] Installing twist_to_manual_control script to /home/kaplan/rov_ws/install/rov_autonomy/lib/rov_autonomy
+[2.670s] 
+[2.670s] Installed /home/kaplan/rov_ws/build/rov_autonomy
+[2.670s] running symlink_data
+[2.670s] creating /home/kaplan/rov_ws/install/rov_autonomy/share/ament_index/resource_index/packages
+[2.670s] symbolically linking /home/kaplan/rov_ws/build/rov_autonomy/resource/rov_autonomy -> /home/kaplan/rov_ws/install/rov_autonomy/share/ament_index/resource_index/packages
+[2.671s] symbolically linking /home/kaplan/rov_ws/build/rov_autonomy/package.xml -> /home/kaplan/rov_ws/install/rov_autonomy/share/rov_autonomy
+[2.702s] Invoked command in '/home/kaplan/rov_ws/build/rov_autonomy' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/kaplan/rov_ws/build/rov_autonomy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kaplan/rov_ws/install/rov_autonomy/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kaplan/rov_ws/build/rov_autonomy/build --no-deps symlink_data
